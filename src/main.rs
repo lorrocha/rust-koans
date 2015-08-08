@@ -1,3 +1,5 @@
-#[test]
-fn it_works() {
+mod assert_strings;
+
+fn main() {
+  assert_strings::main(); 
 }
